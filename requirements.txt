@@ -1,0 +1,7 @@
+Flask
+Jinja2
+opencv-python
+dlib
+imutils
+scipy
+pygame

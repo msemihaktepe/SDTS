@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.note{
+    font-size: 12px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.video-feed {
+    border: 2px solid #ccc;
+    margin-top: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}

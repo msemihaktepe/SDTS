@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+    <!-- Document Meta
+    ============================================= -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="zytheme" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Multi-purpose Business html5 landing page">
+    <link href="static\assets\images\favicon.png" rel="icon">
+
+    <!-- Fonts
+    ============================================= -->
+    <link
+        href='http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800'
+        rel='stylesheet' type='text/css'>
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link href="static\assets\css\external.css" rel="stylesheet">
+    <link href="static\assets\css\bootstrap.min.css" rel="stylesheet">
+    <link href="static\assets\css\style.css" rel="stylesheet">
+
+
+
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+
+
+    <!-- Document Title
+    ============================================= -->
+    <title>SDTS | Sürücü Dikkat Takip Sistemi</title>
+</head>
+
+<body class="body-scroll">
+    <!-- Ana Div
+	============================================= -->
+    <div id="wrapper" class="wrapper clearfix">
+
+        <!-- Menü Kısımları
+        ============================================= -->
+        <header id="navbar-spy" class="header header-1 header-transparent header-bordered header-fixed">
+            <nav id="primary-menu" class="navbar navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="logo" href="index.html">
+                            <img class="logo-dark" src="static\assets\images\logo\logo-dark.png" alt="appy Logo">
+                            <img class="logo-light" src="static\assets\images\logo\logo-light.png" alt="appy Logo">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav nav-pos-right navbar-left nav-split">
+                            <li class="active"><a data-scroll="scrollTo" href="#slider">ana sayfa</a>
+                            </li>
+                            <li><a data-scroll="scrollTo" href="#feature2">özellikler</a>
+                            </li>
+                            <li><a data-scroll="scrollTo" href="#video">video</a>
+                            </li>
+                            <li><a data-scroll="scrollTo" href="#screenshots">ekran kayıtları</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <!-- ANA SAYFA
+		============================================= -->
+        <section id="slider" class="section slider">
+            <div class="slide--item bg-overlay bg-overlay-dark">
+                <div class="bg-section">
+                    <img src="static\assets\images\background\bg-1.jpg" alt="background">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="slide--logo mt-100 hidden-xs wow fadeInUp" data-wow-duration="1s">
+                                <img src="static\assets\images\logo\logo-light.png" alt="logo hero">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 pt-100 wow fadeInUp" data-wow-duration="1s">
+                            <div class="slide--headline">
+                                <h1>Gerçek Zamanlı Sürücü Yorgunluk Tespit Sistemi</h1>
+                            </div>
+                            <div class="slide--bio">Gerçek zamanlı sürücü yorgunluk tespit
+                                sistemi, araçlardaki sürücülerin yorgunluk düzeylerini izleyerek potansiyel olarak
+                                tehlikeli durumları önlemek ve uyarmak için tasarlanmıştır.</div>
+                            <div class="slide--action">
+                                <button class="btn btn--primary" id="renderButton">Uygulamayı başlat !</button>
+
+                                <script>
+                                    document.getElementById("renderButton").addEventListener("click", function () {
+                                        // JavaScript kullanarak sdts.html sayfasını yükle
+                                        window.location.href = "/sdts"; // "sdts.html" sayfasına yönlendirme yapar
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2 wow fadeInUp" data-wow-duration="1s">
+                            <img class="img-responsive pull-right" src="static\assets\images\mockup\iphone-7-black.png"
+                                alt="screens">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ÖZELLİKLER
+		============================================= -->
+        <section id="feature2" class="section feature feature-2 text-center bg-white">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+                        <div class="heading heading-1 mb-80 text--center wow fadeInUp" data-wow-duration="1s">
+                            <h1 class="heading--title">ÜRÜN ÖZELLİKLERİ</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-60">
+                    <!-- Panel #1 -->
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+                            <div class="feature--icon">
+                                <i class="lnr lnr-users"></i>
+                            </div>
+                            <div class="feature--content">
+                                <h3>Gerçek Zamanlı Uyanıklık Takibi</h3>
+                                <p>Sistemimiz, kamera üzerinden gerçek zamanlı olarak kullanıcı yüzünü analiz eder ve
+                                    göz kırpma oranını izleyerek uyanıklık seviyesini takip eder. Böylece, sürücü
+                                    güvenliği gibi kritik uygulamalarda kullanılabilir.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panel #2 -->
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+                            <div class="feature--icon">
+                                <i class="lnr lnr-eye"></i>
+                            </div>
+                            <div class="feature--content">
+                                <h3>Göz Kapatma Algılama</h3>
+                                <p>Belirlenen eşik değerin altına düşen göz açıklığı oranı (EAR) ile gözlerin kapalı
+                                    olduğunu algılar. Bu, uzun süreli göz kırpma ve uykulu halleri tespit etmek için
+                                    kullanılır.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panel #3 -->
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+                            <div class="feature--icon">
+                                <i class="lnr lnr-thumbs-up"></i>
+                            </div>
+                            <div class="feature--content">
+                                <h3>Esnek Uyarı Sistemi</h3>
+                                <p>Gözler belli bir süre kapalı kaldığında sistem uyarı mesajı gösterir. Bu özellik,
+                                    kullanıcının dikkatinin azaldığını fark edip, gerekli önlemlerin alınmasına yardımcı
+                                    olur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <!-- Panel #4 -->
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+                            <div class="feature--icon">
+                                <i class="lnr lnr-coffee-cup"></i>
+                            </div>
+                            <div class="feature--content">
+                                <h3>Esneme Üzerinden Yorgunluk Tespiti</h3>
+                                <p>Ağız açıklığı ölçümü yaparak esneme tespit eder. Bu, özellikle uzun yol sürücüleri
+                                    veya yoğun çalışan bireyler için yorgunluk belirtilerini algılamada kullanışlıdır.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panel #5 -->
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+                            <div class="feature--icon">
+                                <i class="lnr lnr-star"></i>
+                            </div>
+                            <div class="feature--content">
+                                <h3>Çoklu Yüz Takibi</h3>
+                                <p>Gelişmiş yüz tanıma algoritması sayesinde, birden fazla yüzü aynı anda izleyebilir ve
+                                    her birinin uyanıklık durumunu ayrı ayrı değerlendirir.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panel #6 -->
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+                            <div class="feature--icon">
+                                <i class="lnr lnr-laptop-phone"></i>
+                            </div>
+                            <div class="feature--content">
+                                <h3>Kolay Entegrasyon ve Mobil Uyumlu Kullanıcı Dostu Arayüz</h3>
+                                <p>Flask tabanlı web arayüzü sayesinde, sistem kolayca herhangi bir web uygulamasına
+                                    entegre edilebilir ve kullanıcı dostu bir arayüz ile etkileşim sağlar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Video
+		============================================= -->
+        <section id="video" class="section video bg-overlay bg-overlay-dark bg-parallex">
+            <div class="bg-section">
+                <img src="static\assets\images\background\bg-2.jpg" alt="background">
+            </div>
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+                        <div class="heading heading-1 mb-60 text--center wow fadeInUp" data-wow-duration="1s">
+                            <h2 class="heading--title text-white">Sürücü Yorgunluk Takip Sistemi Nasıl Çalışır ?</h2>
+                            <p class="heading--desc text-white">Uygulamanın Nasıl Çalıştığı Açıkanır !</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center wow fadeInUp" data-wow-duration="1s">
+                        <div class="video-ipad-holder">
+                            <iframe
+                                src="https://player.vimeo.com/video/58363288?color=ffffff&title=0&byline=0&portrait=0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EKRAN GÖRNTÜLERİ
+        ============================================= -->
+        <section id="screenshots" class="section screenshots">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+                        <div class="heading heading-1 mb-60 text--center wow fadeInUp" data-wow-duration="1s">
+                            <h2 class="heading--title">Ekran Görüntüleri</h2>
+                            <p class="heading--desc">Geliştirme sıradaki örnek görüntüler !</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="carousel" data-slide="4" data-slide-res="2" data-autoplay="true" data-nav="false"
+                            data-dots="false" data-space="30" data-loop="true" data-speed="1000">
+                            <!-- GÖRÜNTÜ #1 -->
+                            <div class="screenshot">
+                                <img class="center-block" src="static\assets\images\screenshots\1.jpg" alt="client">
+                            </div>
+
+                            <!-- GÖRÜNTÜ #2 -->
+                            <div class="screenshot">
+                                <img class="center-block" src="static\assets\images\screenshots\2.jpg" alt="client">
+                            </div>
+
+                            <!-- GÖRÜNTÜ #3 -->
+                            <div class="screenshot">
+                                <img class="center-block" src="static\assets\images\screenshots\3.jpg" alt="client">
+                            </div>
+
+                            <!-- GÖRÜNTÜ #4 -->
+                            <div class="screenshot">
+                                <img class="center-block" src="static\assets\images\screenshots\4.jpg" alt="client">
+                            </div>
+
+                            <!-- GÖRÜNTÜ #5 -->
+                            <div class="screenshot">
+                                <img class="center-block" src="static\assets\images\screenshots\3.jpg"
+                                    alt="clclientient">
+                            </div>
+
+                            <!-- GÖRÜNTÜ #6 -->
+                            <div class="screenshot">
+                                <img class="center-block" src="static\assets\images\screenshots\2.jpg" alt="screenshot">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJE BİLGİLERİ #1
+		============================================= -->
+        <section id="newsletter" class="section newsletter text-center bg-overlay bg-overlay-dark">
+            <div class="bg-section">
+                <img src="static\assets\images\background\bg-3.jpg" alt="Background" />
+            </div>
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                        <div class="heading heading-1 mb-60 text--center wow fadeInUp" data-wow-duration="1s">
+                            <h2 class="heading--title text-white">DANIŞMAN</h2>
+                            <p class="heading--desc text-white">Doç.Dr.Bülent Gürsel EMİROĞLU</p>
+                            <br><br>
+                            <h2 class="heading--title text-white">HAZIRLAYAN</h2>
+                            <p class="heading--desc text-white">Mustafa Semih AKTEPE</p>
+                            <p class="heading--desc text-white">190205082</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer #5
+		============================================= -->
+        <footer id="footer" class="footer footer-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text--center">
+                        <div class="footer--copyright">
+                            <span>Kırıkkale Üniversitesi - Bilgisayar Mühendisliği - Bitirme Projesi 1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Javascript
+	============================================= -->
+    <script src="static\assets\js\jquery-2.2.4.min.js"></script>
+    <script src="static\assets\js\plugins.js"></script>
+    <script src="static\assets\js\functions.js"></script>
+</body>
+</html>
+
+
